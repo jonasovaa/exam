@@ -133,7 +133,6 @@ p {
 .logoprojects {
     width: 154px;
     height: 154px;
-    overflow: none;
     object-fit: contain;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -195,3 +194,59 @@ p {
  .skillsheading {
         text-align: center;
     }
+
+.footer {
+    background-color: var(--clr-background);
+    padding: 2rem;
+}
+
+/* TABLET SIZE */
+
+@media(min-width:700px){
+    .about{
+        width: 20rem;
+        height: 6rem;
+    }
+
+ 
+
+    .photo{ 
+        width: 400px;
+        height: 400px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .photos {
+        width: 20rem;
+    }
+
+    .other {
+        width: 20rem;  
+    }
+
+    .oheading {
+        font-size: 2rem;
+    }
+
+    .logoprojects {
+        width: 160px;
+        height: 160px;
+        object-fit: contain;
+        display: flex;
+        padding: 2rem;
+    }
+    
+    .skills {
+        width: 30rem;
+        height: 60rem;
+    }
+ 
+    .pundrop {
+        font-size: 1.5rem;
+    } 
+    
+    .footer {
+        padding: 5rem;
+    }
+}
