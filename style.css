@@ -1,1 +1,197 @@
+:root {
+    --clr-background: #FFFDF1;
+    --clr-accent: #D9AF8B;
+    --clr-heading: #8C3C2A;
+    --clr-othertext: #733B27;
 
+    --ff-logo: "Eloquent-JF-pro";
+    --ff-headings: "Bely-display";
+    --ff-paragraphs: "Muli";
+}
+
+body {
+    background-color: var(--clr-background);
+    margin: 0px;
+}
+
+/* heading styling */
+
+h1{
+    font-family: eloquent-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #8C3C2A;
+}
+
+h2 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--clr-heading);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h3 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--clr-othertext);
+    font-size: 1.5rem;
+}
+
+/* top section */
+
+.top {
+    background-image: url("photos/ph4.jpg");
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-color: var(--clr-background);
+    top: 0;
+    right: 0;
+}
+
+.social {
+    max-height: 2.5rem;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socialmobile {
+    max-height: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clip-circle {
+    clip-path: circle(16.5% at 52% 34%);
+    height: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5rem; 
+    position: relative;
+    z-index: 2;
+}
+
+.about {
+    background-color: var(--clr-background);
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 4rem;
+    margin-top: -15rem;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+    opacity: 65%;
+}
+
+p {
+    font-family: muli, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: var(--clr-othertext);
+}
+
+/* photography section */
+
+.photo {
+    width: 318px;
+    height: 318px; 
+    object-fit: cover;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.photos {
+    background-color:var(--clr-accent) ;
+    width: 12rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    
+}
+
+.phheading {
+    text-align: center;
+}
+
+/* other section */
+.logoprojects {
+    width: 154px;
+    height: 154px;
+    overflow: none;
+    object-fit: contain;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    position: relative;
+} 
+
+.other {
+    background-color:var(--clr-accent) ;
+    width: 12rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.oheading {
+    text-align: center;
+}
+
+/* skills section */
+
+.myskills {
+    padding: 2rem;
+    background-color: var(--clr-background);
+}
+
+.skills {
+    background-color: var(--clr-accent);
+    width: 20rem;
+    height: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.undrop {
+    background-color: var(--clr-accent);
+    padding: 2rem;
+    position: relative;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.udlogo {
+    width: 154px;
+    height: 154px;
+    object-fit: contain;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+ .pundrop {
+        color: var(--clr-background);
+        text-align: center;
+        font-size: 1rem;
+    }
+
+ .skillsheading {
+        text-align: center;
+    }
