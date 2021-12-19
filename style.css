@@ -250,10 +250,6 @@ p {
         font-size: 1.5rem;
     } 
     
-    .footer {
-        background-color: var(--clr-background);
-        padding: 5rem;
-    }
 }
 
 /* DESKTOP SIZE */
@@ -280,6 +276,7 @@ p {
         padding: 2rem;
         width: 70rem;
         justify-items: center;
+
     }
   
     .photo {
@@ -328,6 +325,26 @@ p {
         justify-items: center;
     }
 
+    .skills {
+        width:40rem ;
+        padding: 2rem;
+        display: block;
+        background-color: var(--clr-accent);
+        height: 80rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .undrop{
+        width: 40rem;
+        position: relative;
+        justify-items: center;
+    }
+
+    .udlogo {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 
